@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+h1,h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.card-icon{
+  background-color: rgba(46, 49, 52, 0.319);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.icon{
+  margin-bottom: 10px;
+}
+.name{
+  font-size: 1rem;
+}
+#name{
+  width: 90%;
+  background-color: rgba(46, 49, 52, 0.319);
+  border: none;
+}
+.copy{
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: right;
+  cursor: pointer;
+}
+.copy:hover{
+  color: blueviolet;
+}
+.show{
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: right;
+  cursor: pointer;
+}
+.button-modal{
+  background: transparent;
+  border: none;
+  font-size: 12px;
+  text-align: right;
+  color: white;
+}
+.button-modal:hover{
+  color: blueviolet;
+}
+.modal-title{
+  color: #282c34;
+  text-align: center !important;
+  display: inline-block;
+}
+.modal-header{
+  display: block;
+}
+.btn-close{
+  display: inline-block;
+  float: right;
+  font-size: 10px;
+}
+.nameIcon{
+  color: #282c34;
+  font-size: 15px;
+}
+.text-alert{
+  font-size: 15px;
+}
+.displayNone{
+  display: none !important;
+}
+.search{
+  float: right;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
